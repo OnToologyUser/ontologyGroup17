@@ -1,0 +1,172 @@
+<http://www.fiupmwsld.org/handson/group17/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.fiupmwsld.org/handson/group17/estaEnBarrio
+<http://www.fiupmwsld.org/handson/group17/estaEnBarrio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.fiupmwsld.org/handson/group17/estaEnBarrio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Distrito> .
+<http://www.fiupmwsld.org/handson/group17/estaEnBarrio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.fiupmwsld.org/handson/group17/Barrio> .
+# 
+# http://www.fiupmwsld.org/handson/group17/estaEnCalle
+<http://www.fiupmwsld.org/handson/group17/estaEnCalle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.fiupmwsld.org/handson/group17/estaEnCalle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/estaEnCalle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.fiupmwsld.org/handson/group17/Calle> .
+# 
+# http://www.fiupmwsld.org/handson/group17/estaEnDistrito
+<http://www.fiupmwsld.org/handson/group17/estaEnDistrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.fiupmwsld.org/handson/group17/estaEnDistrito> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Calle> .
+<http://www.fiupmwsld.org/handson/group17/estaEnDistrito> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.fiupmwsld.org/handson/group17/Distrito> .
+# 
+# http://www.fiupmwsld.org/handson/group17/estaEnLocalidad
+<http://www.fiupmwsld.org/handson/group17/estaEnLocalidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.fiupmwsld.org/handson/group17/estaEnLocalidad> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Barrio> .
+<http://www.fiupmwsld.org/handson/group17/estaEnLocalidad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.fiupmwsld.org/handson/group17/Localidad> .
+# 
+# http://www.fiupmwsld.org/handson/group17/estaEnProvincia
+<http://www.fiupmwsld.org/handson/group17/estaEnProvincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.fiupmwsld.org/handson/group17/estaEnProvincia> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Localidad> .
+<http://www.fiupmwsld.org/handson/group17/estaEnProvincia> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.fiupmwsld.org/handson/group17/Provincia> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneAccesibilidad
+<http://www.fiupmwsld.org/handson/group17/tieneAccesibilidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneAccesibilidad> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneAccesibilidad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneCP
+<http://www.fiupmwsld.org/handson/group17/tieneCP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneCP> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Distrito> .
+<http://www.fiupmwsld.org/handson/group17/tieneCP> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneCoordenadaX
+<http://www.fiupmwsld.org/handson/group17/tieneCoordenadaX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneCoordenadaX> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneCoordenadaX> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneCoordenadaY
+<http://www.fiupmwsld.org/handson/group17/tieneCoordenadaY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneCoordenadaY> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneCoordenadaY> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneDescripcion
+<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneDescripcion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneEmail
+<http://www.fiupmwsld.org/handson/group17/tieneEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneEmail> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneEmail> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneEquipamiento
+<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneEquipamiento> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneFax
+<http://www.fiupmwsld.org/handson/group17/tieneFax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneFax> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneFax> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneLatitud
+<http://www.fiupmwsld.org/handson/group17/tieneLatitud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneLatitud> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneLatitud> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneLongitud
+<http://www.fiupmwsld.org/handson/group17/tieneLongitud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneLongitud> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneLongitud> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneNombre
+<http://www.fiupmwsld.org/handson/group17/tieneNombre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneNombre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneNombre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle
+<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Calle> .
+<http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneTelefono
+<http://www.fiupmwsld.org/handson/group17/tieneTelefono> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneTelefono> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneTelefono> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneTipoCalle
+<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Calle> .
+<http://www.fiupmwsld.org/handson/group17/tieneTipoCalle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneTipoPath
+<http://www.fiupmwsld.org/handson/group17/tieneTipoPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneTipoPath> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneTipoPath> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneTransporte
+<http://www.fiupmwsld.org/handson/group17/tieneTransporte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneTransporte> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneTransporte> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.fiupmwsld.org/handson/group17/tieneURL
+<http://www.fiupmwsld.org/handson/group17/tieneURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.fiupmwsld.org/handson/group17/tieneURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.fiupmwsld.org/handson/group17/Centros> .
+<http://www.fiupmwsld.org/handson/group17/tieneURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.fiupmwsld.org/handson/group17/Barrio
+<http://www.fiupmwsld.org/handson/group17/Barrio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.fiupmwsld.org/handson/group17/Calle
+<http://www.fiupmwsld.org/handson/group17/Calle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.fiupmwsld.org/handson/group17/Centros
+<http://www.fiupmwsld.org/handson/group17/Centros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.fiupmwsld.org/handson/group17/Distrito
+<http://www.fiupmwsld.org/handson/group17/Distrito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.fiupmwsld.org/handson/group17/Localidad
+<http://www.fiupmwsld.org/handson/group17/Localidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.fiupmwsld.org/handson/group17/Provincia
+<http://www.fiupmwsld.org/handson/group17/Provincia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.fiupmwsld.org/handson/group17/name
+<http://www.fiupmwsld.org/handson/group17/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.fiupmwsld.org/handson/group17/type
+<http://www.fiupmwsld.org/handson/group17/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

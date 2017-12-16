@@ -1,0 +1,28 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "http://dbpedia.org/ontology/Province" "http://dbpedia.org/ontology/Locality" "http://dbpedia.org/ontology/District" "http://dbpedia.org/ontology/EducationalInstitution" "http://dbpedia.org/ontology/Street" "http://rdfs.co/juso/Neighborhood" ; /*classes style*/
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:string" [ label = "base:tieneURL" ];
+	"http://dbpedia.org/ontology/District" -> "xsd:integer" [ label = "http://dbpedia.org/ontology/postalCode" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:float" [ label = "https://www.w3.org/2006/vcard/ns#longitude" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:string" [ label = "base:tieneTransporte" ];
+	"http://dbpedia.org/ontology/Street" -> "http://dbpedia.org/ontology/District" [ label = "http://dbpedia.org/ontology/district" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:string" [ label = "base:tieneTelefono" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:float" [ label = "https://www.w3.org/2006/vcard/ns#latitude" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:string" [ label = "base:tieneDescripcion" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:boolean" [ label = "http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:string" [ label = "base:tieneNombre" ];
+	"http://rdfs.co/juso/Neighborhood" -> "http://dbpedia.org/ontology/Locality" [ label = "http://dbpedia.org/ontology/city" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "http://dbpedia.org/ontology/Street" [ label = "https://www.w3.org/2006/vcard/ns#hasStreetAddress" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:string" [ label = "base:tieneTipoPath" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:integer" [ label = "http://data.ign.fr/def/geometrie#coordY" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:integer" [ label = "http://data.ign.fr/def/geometrie#coordX" ];
+	"http://dbpedia.org/ontology/District" -> "http://rdfs.co/juso/Neighborhood" [ label = "base:estaEnBarrio" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:string" [ label = "base:tieneEquipamiento" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:string" [ label = "http://schema.org/email" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:string" [ label = "base:tieneTipoCalle" ];
+	"http://dbpedia.org/ontology/EducationalInstitution" -> "xsd:string" [ label = "http://swrc.ontoware.org/ontology#fax" ];
+	"http://dbpedia.org/ontology/Locality" -> "http://dbpedia.org/ontology/Province" [ label = "http://dbpedia.org/ontology/province" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:integer" [ label = "base:tieneNumeroCalle" ];
+
+}

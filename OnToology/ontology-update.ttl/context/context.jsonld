@@ -1,0 +1,110 @@
+{
+  "@context" : {
+    "hasStreetAddress" : {
+      "@id" : "https://www.w3.org/2006/vcard/ns#hasStreetAddress",
+      "@type" : "@id"
+    },
+    "province" : {
+      "@id" : "http://dbpedia.org/ontology/province",
+      "@type" : "@id"
+    },
+    "tieneURL" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneURL",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tieneTransporte" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneTransporte",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isAccessibilityForDisabledPerson" : {
+      "@id" : "http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Neighborhood" : {
+      "@id" : "http://rdfs.co/juso/Neighborhood"
+    },
+    "city" : {
+      "@id" : "http://dbpedia.org/ontology/city",
+      "@type" : "@id"
+    },
+    "fax" : {
+      "@id" : "http://swrc.ontoware.org/ontology#fax",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "coordX" : {
+      "@id" : "http://data.ign.fr/def/geometrie#coordX",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "District" : {
+      "@id" : "http://dbpedia.org/ontology/District"
+    },
+    "tieneNumeroCalle" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "tieneTelefono" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneTelefono",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "longitude" : {
+      "@id" : "https://www.w3.org/2006/vcard/ns#longitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "Locality" : {
+      "@id" : "http://dbpedia.org/ontology/Locality"
+    },
+    "email" : {
+      "@id" : "http://schema.org/email",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tieneTipoPath" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneTipoPath",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Province" : {
+      "@id" : "http://dbpedia.org/ontology/Province"
+    },
+    "Street" : {
+      "@id" : "http://dbpedia.org/ontology/Street"
+    },
+    "tieneEquipamiento" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneEquipamiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "district" : {
+      "@id" : "http://dbpedia.org/ontology/district",
+      "@type" : "@id"
+    },
+    "latitude" : {
+      "@id" : "https://www.w3.org/2006/vcard/ns#latitude",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "EducationalInstitution" : {
+      "@id" : "http://dbpedia.org/ontology/EducationalInstitution"
+    },
+    "postalCode" : {
+      "@id" : "http://dbpedia.org/ontology/postalCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "tieneTipoCalle" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneTipoCalle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "estaEnBarrio" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/estaEnBarrio",
+      "@type" : "@id"
+    },
+    "tieneNombre" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneNombre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "coordY" : {
+      "@id" : "http://data.ign.fr/def/geometrie#coordY",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "tieneDescripcion" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneDescripcion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

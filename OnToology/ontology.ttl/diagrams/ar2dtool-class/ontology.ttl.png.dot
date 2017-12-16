@@ -1,0 +1,28 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Provincia" "base:Localidad" "base:Distrito" "base:Centros" "base:Calle" "base:Barrio" ; /*classes style*/
+	"base:Centros" -> "xsd:boolean" [ label = "base:tieneAccesibilidad" ];
+	"base:Barrio" -> "base:Localidad" [ label = "base:estaEnLocalidad" ];
+	"base:Centros" -> "xsd:string" [ label = "base:tieneURL" ];
+	"base:Centros" -> "xsd:string" [ label = "base:tieneTransporte" ];
+	"base:Centros" -> "xsd:string" [ label = "base:tieneEmail" ];
+	"base:Centros" -> "xsd:float" [ label = "base:tieneLatitud" ];
+	"base:Centros" -> "xsd:string" [ label = "base:tieneTelefono" ];
+	"base:Centros" -> "base:Calle" [ label = "base:estaEnCalle" ];
+	"base:Centros" -> "xsd:string" [ label = "base:tieneDescripcion" ];
+	"base:Centros" -> "xsd:float" [ label = "base:tieneLongitud" ];
+	"base:Centros" -> "xsd:integer" [ label = "base:tieneCoordenadaX" ];
+	"base:Centros" -> "xsd:string" [ label = "base:tieneNombre" ];
+	"base:Centros" -> "xsd:integer" [ label = "base:tieneCoordenadaY" ];
+	"base:Calle" -> "base:Distrito" [ label = "base:estaEnDistrito" ];
+	"base:Centros" -> "xsd:string" [ label = "base:tieneTipoPath" ];
+	"base:Centros" -> "xsd:string" [ label = "base:tieneFax" ];
+	"base:Localidad" -> "base:Provincia" [ label = "base:estaEnProvincia" ];
+	"base:Distrito" -> "base:Barrio" [ label = "base:estaEnBarrio" ];
+	"base:Centros" -> "xsd:string" [ label = "base:tieneEquipamiento" ];
+	"base:Calle" -> "xsd:string" [ label = "base:tieneTipoCalle" ];
+	"base:Distrito" -> "xsd:integer" [ label = "base:tieneCP" ];
+	"base:Calle" -> "xsd:integer" [ label = "base:tieneNumeroCalle" ];
+
+}

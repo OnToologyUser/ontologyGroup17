@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.fiupmwsld.org/handson/group17/"
+     xml:base="http://www.fiupmwsld.org/handson/group17/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.fiupmwsld.org/handson/group17/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/estaEnBarrio -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.fiupmwsld.org/handson/group17/estaEnBarrio">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Distrito"/>
+        <rdfs:range rdf:resource="http://www.fiupmwsld.org/handson/group17/Barrio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/estaEnCalle -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.fiupmwsld.org/handson/group17/estaEnCalle">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.fiupmwsld.org/handson/group17/Calle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/estaEnDistrito -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.fiupmwsld.org/handson/group17/estaEnDistrito">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Calle"/>
+        <rdfs:range rdf:resource="http://www.fiupmwsld.org/handson/group17/Distrito"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/estaEnLocalidad -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.fiupmwsld.org/handson/group17/estaEnLocalidad">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Barrio"/>
+        <rdfs:range rdf:resource="http://www.fiupmwsld.org/handson/group17/Localidad"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/estaEnProvincia -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.fiupmwsld.org/handson/group17/estaEnProvincia">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Localidad"/>
+        <rdfs:range rdf:resource="http://www.fiupmwsld.org/handson/group17/Provincia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneAccesibilidad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneAccesibilidad">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneCP -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneCP">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Distrito"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneCoordenadaX -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneCoordenadaX">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneCoordenadaY -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneCoordenadaY">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneDescripcion -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneDescripcion">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneEmail -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneEmail">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneEquipamiento -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneEquipamiento">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneFax -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneFax">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneLatitud -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneLatitud">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneLongitud -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneLongitud">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneNombre -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneNombre">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Calle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneTelefono -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneTelefono">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneTipoCalle -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneTipoCalle">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Calle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneTipoPath -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneTipoPath">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneTransporte -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneTransporte">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/tieneURL -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.fiupmwsld.org/handson/group17/tieneURL">
+        <rdfs:domain rdf:resource="http://www.fiupmwsld.org/handson/group17/Centros"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/Barrio -->
+
+
+    <owl:Class rdf:about="http://www.fiupmwsld.org/handson/group17/Barrio"/>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/Calle -->
+
+
+    <owl:Class rdf:about="http://www.fiupmwsld.org/handson/group17/Calle"/>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/Centros -->
+
+
+    <owl:Class rdf:about="http://www.fiupmwsld.org/handson/group17/Centros"/>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/Distrito -->
+
+
+    <owl:Class rdf:about="http://www.fiupmwsld.org/handson/group17/Distrito"/>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/Localidad -->
+
+
+    <owl:Class rdf:about="http://www.fiupmwsld.org/handson/group17/Localidad"/>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/Provincia -->
+
+
+    <owl:Class rdf:about="http://www.fiupmwsld.org/handson/group17/Provincia"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/name -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.fiupmwsld.org/handson/group17/name"/>
+    
+
+
+    <!-- http://www.fiupmwsld.org/handson/group17/type -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.fiupmwsld.org/handson/group17/type"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

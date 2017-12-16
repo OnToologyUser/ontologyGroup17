@@ -1,0 +1,110 @@
+{
+  "@context" : {
+    "Calle" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/Calle"
+    },
+    "tieneFax" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneFax",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tieneURL" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneURL",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tieneTransporte" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneTransporte",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "estaEnCalle" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/estaEnCalle",
+      "@type" : "@id"
+    },
+    "tieneEmail" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneEmail",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tieneNumeroCalle" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneNumeroCalle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "tieneTelefono" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneTelefono",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tieneCoordenadaY" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneCoordenadaY",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "tieneCP" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneCP",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Provincia" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/Provincia"
+    },
+    "Localidad" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/Localidad"
+    },
+    "tieneTipoPath" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneTipoPath",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "estaEnDistrito" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/estaEnDistrito",
+      "@type" : "@id"
+    },
+    "tieneEquipamiento" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneEquipamiento",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "estaEnProvincia" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/estaEnProvincia",
+      "@type" : "@id"
+    },
+    "tieneLongitud" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneLongitud",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "tieneTipoCalle" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneTipoCalle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Distrito" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/Distrito"
+    },
+    "estaEnBarrio" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/estaEnBarrio",
+      "@type" : "@id"
+    },
+    "tieneNombre" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneNombre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tieneCoordenadaX" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneCoordenadaX",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Centros" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/Centros"
+    },
+    "estaEnLocalidad" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/estaEnLocalidad",
+      "@type" : "@id"
+    },
+    "tieneLatitud" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneLatitud",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "Barrio" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/Barrio"
+    },
+    "tieneAccesibilidad" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneAccesibilidad",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "tieneDescripcion" : {
+      "@id" : "http://www.fiupmwsld.org/handson/group17/tieneDescripcion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}
